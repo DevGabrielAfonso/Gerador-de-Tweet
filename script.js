@@ -2,9 +2,7 @@ const sujeitos = ["Usuários", "Vagabundos", "Amigos", "Jogadores", "Pessoas", "
 const verbos = ["fazem", "compram", "gostam de", "bebem", "odeiam", "usam"]
 const substantivos = ["coisas", "água", "comida", "cachorros", "crime", "banana", "bolo", "computador"]
 const adjetivos = ["perfeitos", "loucos", "terríveis", "maníacos", "gostosos", "uma ameaça"]
-const comentarioCount = document.getElementsByClassName("label_comentario");
-const rtCount = document.getElementsByClassName("label_rt");
-const likeCount = document.getElementsByClassName("label_like")[0];
+const label = document.getElementsByClassName("label");
 
 function randomizar(){
     //frase
@@ -31,6 +29,6 @@ function adicionarZero(n){
     return n < 10 ? "0" + n : n
 }
 
-function comentario(){
-    comentarioCount.innerText = Number(comentarioCount.textContent) + 1;
+function adicionarContador(n){
+    label[n].textContent = Number(label[n].textContent) + 1;
 }

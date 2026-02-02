@@ -20,9 +20,9 @@
         <textarea rows="10" cols="37" class="tweetarea" id="teweearea" placeholder="O que está acontecendo?"></textarea>
         <h5 id="time" name="time" class="time">00:00 31/12/2000</h5>
         <div class="interaction_icons">
-            <img class="comment" src="svg/comment.svg" id="icons" height="20" onclick="comentario()"><label class="label_comentario" id="numbers" for="comment">0</label>
-            <img class="retweet" src="svg/retweet.svg" id="icons" height="20" onclick="rt()"><label class="label_rt" id="numbers" for="retweet">0</label>
-            <img class="like" src="svg/like.svg" id="icons" height="20" onclick="like()"><label for="like" class="label_like" id="numbers">0</label>
+            <img class="comment" src="svg/comment.svg" id="icons" height="20" onclick="adicionarContador(0)"><label class="label" id="numbers" for="comment">0</label>
+            <img class="retweet" src="svg/retweet.svg" id="icons" height="20" onclick="adicionarContador(1)"><label class="label" id="numbers" for="retweet">0</label>
+            <img class="like" src="svg/like.svg" id="icons" height="20" onclick="adicionarContador(2)"><label for="like" class="label" id="numbers">0</label>
             <a class="tweetar" id="tweetar" href="https://x.com/intent/post?text=">Gostou? Tweet isso</a>
             <input type="button" class="randomizer" value="Gerar" onClick="randomizar()">
         </div>
