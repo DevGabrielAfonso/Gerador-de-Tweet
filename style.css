@@ -68,6 +68,7 @@ img#profile_picture{
     border: 0;
 }
 
+
 .tweetarea:focus{
     outline: none;
 }
@@ -90,17 +91,17 @@ img#icons:hover{
 }
 
 footer{
-  position: fixed;
-  margin-bottom: 10px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+    position: fixed;
+    margin-bottom: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 label#numbers{
     margin-left: 5px;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .randomizer{
@@ -123,3 +124,23 @@ label#numbers{
     cursor:pointer;
 }
 
+.tweetar{
+    color:#00ACEE;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.tweetar:visited{
+    color:#00ACEE;
+    font-weight: bold;
+    font-size: 12pt;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.tweetar:hover{
+    background-color: #00abee13;
+    border-radius: 50px;
+}
